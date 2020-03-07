@@ -180,11 +180,11 @@ def login():
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		keluar()
-		else:
-			print("\n\x1b[1;91mPassword/Email is wrong")
-			os.system('rm -rf login.txt')
-			time.sleep(1)
-			login()
+	else:
+		print("\n\x1b[1;91mPassword/Email is wrong")
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login() 
 
 
 def menu():
